@@ -11,7 +11,7 @@ function obterUsuario(callback) {
 function obterTelefone(idUsuario, callback) {
     setTimeout(() => {
         return callback(null, {
-            telefone: '33382736',
+            telefone: '1234567',
             ddd: '43'
         })
     }, 2000);
